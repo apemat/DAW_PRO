@@ -57,6 +57,12 @@ public class Agenda {
         return false;
     }
 
+    /**
+     * Método que devuelve True si un contacto existe en la agenda.
+     * La comprobación se realiza por el nombre
+     * @param nombre
+     * @return
+     */
     public boolean existeContacto (String nombre) {
         //Chequeo cada posicion del array dado que pueden haber nulos en cualquier posición
         for (int i=0; i< contactos.length; i++) {
